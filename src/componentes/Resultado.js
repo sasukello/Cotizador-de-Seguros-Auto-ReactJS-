@@ -10,7 +10,7 @@ class Resultado extends Component {
             <div className="gran-total">
                 {mensaje}
                 <TransitionGroup component ="span" className="resultado">
-                    <CSSTransition className="resultado" key={sexo} timeout={{enter:500, exit:500}}>
+                    <CSSTransition classNames="resultado" key={sexo} timeout={{enter:500, exit:500}}>
                         <span>{sexo}</span>
                     </CSSTransition>
 
